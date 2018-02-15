@@ -9,3 +9,16 @@
     - name: This is where the name goes.
       debug:
         msg: "These are the module parameters."
+
+# Create AWS VPC  https://docs.ansible.com/ansible/latest/ec2_vpc_net_module.html#ec2-vpc-net
+
+# Add an internet gateway https://docs.ansible.com/ansible/latest/ec2_vpc_igw_module.html#ec2-vpc-igw
+
+# Add a public subnet https://docs.ansible.com/ansible/latest/ec2_vpc_subnet_module.html#ec2-vpc-subnet
+
+# Create a security group (firewall rules) https://docs.ansible.com/ansible/latest/ec2_group_module.html
+
+# Create an ec2 ssh key https://docs.ansible.com/ansible/latest/ec2_key_module.html
+
+# Create an EC2 instance https://docs.ansible.com/ansible/latest/ec2_module.html
+

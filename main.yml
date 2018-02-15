@@ -1,0 +1,11 @@
+- hosts: localhost
+  connection: local
+  become: False
+  vars:
+    foo: bar
+  vars_files:
+    - ./my_vars.yml
+  tasks:
+    - name: This is where the name goes.
+      debug:
+        msg: "These are the module parameters."
